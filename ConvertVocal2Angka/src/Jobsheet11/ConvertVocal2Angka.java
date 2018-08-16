@@ -47,3 +47,14 @@ public class ConvertVocal2Angka {
         for(int i=0;i<arrKal.length;i++)
             System.out.println(arrKal[i]+" => "+arrCon[i]);
          tampilPerKata(kalimat,convert);
+              
+    }    
+    
+       
+        
+    private static void tampilHasil(String convert){
+           System.out.println("Kalimat Alay Angka : " + convert);
+           tampilHasil(convert);
+    }
+    
+}
